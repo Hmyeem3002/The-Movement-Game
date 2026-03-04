@@ -1,5 +1,13 @@
 #Get clear function for clearing the screen
-from replit import clear
+#Gets clear function for smooth transitions
+import os
+
+def clear():
+    # Check the operating system and run the appropriate command
+    if os.name == 'nt': # For Windows
+        _ = os.system('cls')
+    else: # For macOS and Linux (posix)
+        _ = os.system('clear')
 
 #Get readkey function for a better input function
 import readchar

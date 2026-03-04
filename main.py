@@ -1,5 +1,4 @@
-#Gets clear function for smooth transitions
-from replit import clear
+
 #Readkey for a better input function
 import readchar
 #Random for random stuff
@@ -9,7 +8,7 @@ import random
 #imports from other files
 
 #Collects all print functions that don't overly affect the main screen
-from OtherPrintFunctions import InventoryView, KeyTut, MapInfo
+from OtherPrintFunctions import InventoryView, KeyTut, MapInfo, clear
 
 #Collects Player stats for use
 from PlayerStats import GetMHP, GetHP, GetRange, GetDashLength, GetDashCooldownLength, GetHPPlus, GetRangePlus, GetLevel, GetSize, GetHalf
